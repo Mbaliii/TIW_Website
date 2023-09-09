@@ -1,0 +1,4 @@
+.header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../../assets/images/27be7690e698a7ae4d44c754d8b96be1ad682e0a.png") center/cover no-repeat
+}
