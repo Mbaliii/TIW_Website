@@ -1,12 +1,26 @@
-import './App.css';
-import Header from './components/Header/Header';
+import React from "react";
+import Contact from "./components/contact/Contact";
+import Experience from './components/experience/Experience';
+import Footer from "./components/footer/Footer";
+import Header from './components/header/Header';
+import Navbar from "./components/navbar/Navbar";
+import Portfolio from './components/portfolio/Portfolio';
+import Services from './components/services/Services';
+import Testimonials from "./components/testimonials/Testimonials";
 
-function App() {
-  return (
-    <div className="App">
-      <Header/>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <>
+            <Header />
+            <Navbar/>
+            <Experience />
+            <Services />
+            <Portfolio />
+            <Testimonials />
+            <Contact />
+            <Footer />
+        </>
+    );
+};
 
 export default App;
