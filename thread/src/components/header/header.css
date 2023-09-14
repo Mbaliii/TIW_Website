@@ -21,17 +21,17 @@ header {
 
 /* header socials */
 
-.header__socials{
+.header__socials {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 3rem; 
+    bottom: 3rem;
 }
 
-.header__socials::after{
+.header__socials::after {
     content: "";
     width: 1px;
     height: 2rem;
@@ -39,7 +39,7 @@ header {
 }
 
 /* "me" style */
-.me{
+.me {
     background: linear-gradient(var (--color-primary), transparent);
     width: 22rem;
     height: 30rem;
@@ -53,11 +53,32 @@ header {
 }
 
 /* scroll down */
-.scroll__down{
+.scroll__down {
     position: absolute;
     right: -23rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+}
+
+/* media for medium phones */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh
+    }
+
+}
+
+/* small devices */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
 }
