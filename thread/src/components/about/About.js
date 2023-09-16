@@ -2,7 +2,6 @@ import React from "react";
 import './about.css';
 import ME from '../../assets/me-about.jpg';
 import { BsAwardFill } from 'react-icons/bs';
-import { FaUserSecret } from 'react-icons/fa';
 import { BsFillFolderFill } from 'react-icons/bs';
 
 
@@ -26,21 +25,13 @@ const About = () => {
                         <article className="about__card">
                             <BsAwardFill className="about__icon" />
                             <h5>Experience</h5>
-                            <h5> 3+ Years Working Experience</h5>
+                            <h5> 1+ Years Experience</h5>
                         </article>
-
-
-                        <article className="about__card">
-                            <FaUserSecret className="about__icon" />
-                            <h5 className="blue-text">Clients</h5>
-                            <h5 className="blue-text">200+ WorldWide</h5>
-                        </article>
-
 
                         <article className="about__card">
                             <BsFillFolderFill className="about__icon" />
                             <h5>Experience</h5>
-                            <h5>80+ Completed</h5>
+                            <h5>20+ Completed</h5>
                         </article>
                     </div>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -51,7 +42,7 @@ const About = () => {
                         It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                         and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-                        <a href="#contact" className="blue-text">Let's Talk</a>
+                    <a href="#contact" className="blue-text">Let's Talk</a>
                 </div>
             </div>
         </section>
